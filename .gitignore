@@ -1,6 +1,20 @@
+# Sensitive
+.env
+config/config.json
+
+# Python
 __pycache__/
 *.pyc
-.env
+*.pyo
+
+# Database
 robin.db
-robin.db-journal
-logs/*.log
+robin.db-*
+robin.db-shm
+robin.db-wal
+
+# Logs
+logs/
+
+# OS
+.DS_Store
