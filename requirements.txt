@@ -1,0 +1,6 @@
+# Robin tidak butuh dependency eksternal — semua pakai stdlib:
+#   urllib (HTTP), sqlite3 (DB), threading, json, dataclasses.
+# File ini sengaja kosong dari paket wajib. Python >= 3.9.
+#
+# Opsional (tidak dipakai oleh kode inti):
+#   python-dotenv   # kalau ingin loader .env lebih kaya (Robin pakai loader sendiri)

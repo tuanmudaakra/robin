@@ -1,0 +1,36 @@
+{
+  "helius_api_key": "",
+  "birdeye_api_key": "",
+  "telegram_bot_token": "",
+  "telegram_signal_chat_id": "",
+  "telegram_admin_chat_id": "",
+  "rpc_url": "https://mainnet.helius-rpc.com/?api-key=",
+
+  "scan_interval_min": 10,
+  "max_tx_per_scan": 50,
+  "min_liquidity_usd": 5000,
+  "max_rug_risk_score": 70,
+
+  "discovery_enabled": true,
+  "discovery_interval_hours": 6,
+  "outstanding_min_pump_pct": 200,
+  "outstanding_min_liquidity_usd": 10000,
+  "candidate_min_winners": 2,
+  "auto_promote_score": 80,
+  "approval_score_min": 60,
+  "demote_winrate_pct": 30,
+  "demote_inactive_days": 30,
+  "max_active_wallets": 100,
+
+  "jp_horizon_hours": 6,
+  "jpj_horizon_hours": 72,
+  "hit_threshold_pct": 5.0,
+  "miss_threshold_pct": -10.0,
+
+  "llm_enabled": false,
+  "llm_provider": "openai",
+  "llm_base_url": "https://api.deepseek.com",
+  "llm_model": "deepseek-chat",
+  "llm_timeout_sec": 20,
+  "llm_top_n": 5
+}

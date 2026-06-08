@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+robin.db
+robin.db-journal
+logs/*.log
